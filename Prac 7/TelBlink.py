@@ -1,5 +1,5 @@
 '''wget https://raspberrytips.nl/files/tm1637.py
-Physical: DIO=18, VCC=4, GND=6, CLK=16
+Physical Pin: 8, Ground : 6
 '''
 import sys, time, datetime, tm1637, RPi.GPIO as gpio, telepot, random
 
