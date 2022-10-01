@@ -34,9 +34,9 @@ def handle(msg):
     elif message == 'off':
         bot.sendMessage(chat_id, off())
 
-bot = telepot.Bot('5533229605:AAHO95y82f3PwaXzF8V-Q1DDJYOd9-VCuek')
+bot = telepot.Bot('YOUR BOT TOKEN')
 bot.message_loop(handle)
-print('Ha bol mc!')
+print('I am listening...')
 
 while(1):
     time.sleep(1)
