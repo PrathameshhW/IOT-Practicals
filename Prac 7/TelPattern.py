@@ -22,9 +22,9 @@ def handle(msg):
     print (message)
 
     if message == 'on':
-        bot.sendMessage(chat_id, on(8), time.sleep(0.2), on(11), time.sleep(0.5), on(15))
+        bot.sendMessage(chat_id, on(8))
     elif message == 'off':
-        bot.sendMessage(chat_id, off(8), time.sleep(0.2), off(11), time.sleep(0.5), off(15))
+        bot.sendMessage(chat_id, off(8))
 
 bot = telepot.Bot('YOUR BOT TOKEN')
 bot.message_loop(handle)
